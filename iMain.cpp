@@ -578,9 +578,11 @@ void ballChange()
 
         if (xBall >= ScreenWidth - radiusBall || xBall <= radiusBall)
         {
-            dx *= (-1);
             if (xBall - radiusBall < 0)
                 xBall = radiusBall;
+            if (xBall + radiusBall > ScreenWidth)
+                xBall = ScreenWidth - radiusBall;
+            dx *= (-1);
             ballMovementX = dx;
             ballMovementY = dy;
         }
@@ -589,6 +591,8 @@ void ballChange()
         {
             if (yBall - radiusBall < 0)
                 yBall = radiusBall;
+            if (yBall + radiusBall > ScreenHeight)
+                yBall = ScreenHeight - radiusBall;
             dy *= (-1);
             ballMovementX = dx;
             ballMovementY = dy;
