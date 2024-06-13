@@ -2,7 +2,7 @@
 DXT, short for DX Tennis, is a simple 2-player single-device game. The idea was to fuse the two simple, yet vastly popular computer games together: DX-Ball &amp; Ping Pong. It was created as our project submission for Structured Programming - 2 lab of 2nd semester of CSE-'27 batch of IUT by the team of Mubtasim Sajid Ahmed, AKM Ishmam Tahmid, Mahmudul Hasan Sakib &amp; Obaidullah. The language used was C & the graphics were rendered using iGraphics from BUET. Sprites drawn with pixel art were sprinkled all around to give the game a playful aesthetic identity.
 
 ## Gameplay
-Two players control two paddles, one using the keyboard, and the other mouse. W & S are pressed to move the left bat up or down, respectively & the left & right mouse down do the same for the player to the right. Each player is given a set of bricks to protect. The player to first destroy their opponent's wall fully wins.
+Two players control two paddles, one using the keyboard, and the other using the mouse. W & S are pressed to move the left bat up or down, respectively & the left & right mouse down do the same for the player to the right. Each player is given a set of bricks to protect. The player to first destroy their opponent's wall fully wins.
 
 ## Features
 1. The game has three difficulty levels to allow the players to tune the game's pacing.
