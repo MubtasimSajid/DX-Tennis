@@ -605,10 +605,6 @@ void ballChange()
                         if (!PowerUps.active || PowerUps.type != 2)
                         {
                             dx *= (-1);
-                            if (xBall - radiusBall < bricksPlayer1[i].x + bricksPlayer1[i].dx && difficultMode)
-                                xBall = radiusBall + bricksPlayer1[i].x + bricksPlayer1[i].dx;
-                            else if (xBall + radiusBall > bricksPlayer1[i].x && difficultMode)
-                                xBall = bricksPlayer1[i].x - radiusBall;
                         }
                         ballMovementX = dx;
                         ballMovementY = dy;
@@ -641,10 +637,6 @@ void ballChange()
                         if (!PowerUps.active || PowerUps.type != 2)
                         {
                             dy *= (-1);
-                            if (yBall - radiusBall > bricksPlayer1[i].y + bricksPlayer1[i].dy && difficultMode)
-                                yBall = radiusBall + bricksPlayer1[i].y + bricksPlayer1[i].dy;
-                            else if (yBall + radiusBall > bricksPlayer1[i].y && difficultMode)
-                                yBall = (abs)(bricksPlayer1[i].y - radiusBall);
                         }
                         ballMovementX = dx;
                         ballMovementY = dy;
@@ -681,10 +673,6 @@ void ballChange()
                         if (!PowerUps.active || PowerUps.type != 2)
                         {
                             dx *= (-1);
-                            if (xBall - radiusBall < bricksPlayer2[i].x + bricksPlayer2[i].dx && difficultMode)
-                                xBall = bricksPlayer2[i].x - radiusBall;
-                            else if (xBall + radiusBall > bricksPlayer2[i].x && difficultMode)
-                                xBall = radiusBall + bricksPlayer2[i].x + bricksPlayer2[i].dx;
                         }
                         ballMovementX = dx;
                         ballMovementY = dy;
@@ -719,10 +707,6 @@ void ballChange()
                         if (!PowerUps.active || PowerUps.type != 2)
                         {
                             dy *= (-1);
-                            if (yBall - radiusBall > bricksPlayer2[i].y + bricksPlayer2[i].dy && difficultMode)
-                                yBall = (abs)(bricksPlayer2[i].y - radiusBall);
-                            else if (yBall + radiusBall > bricksPlayer2[i].y && difficultMode)
-                                yBall = radiusBall + bricksPlayer2[i].y + bricksPlayer2[i].dy;
                         }
                         ballMovementX = dx;
                         ballMovementY = dy;
