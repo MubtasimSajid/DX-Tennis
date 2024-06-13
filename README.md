@@ -9,4 +9,4 @@ Two players control two paddles, one using the keyboard, and the other mouse. W 
 2. There are four types of power-ups (invisibility, board elongation, brick regeneration & fireball) which will spawn at random positions & time during the playthrough. The player to last hit the ball gets to enjoy the power-ups' special advantages (invisibility is rather disadvantageous & fireball has the same effect for both players).
 3. Bricks are of three types: the regular brown ones hold up for a single shot, the red ones can endure up to 2 hits & the iron bricks take 3.
 
-We hope that you will find DX Tennis enjoyable & entertaining. Please note that you must have iGraphics properly installed on your machine to run the files. Thank you! 
+We hope that you will find DX Tennis enjoyable & entertaining. Please note that you must have iGraphics properly installed on your machine to run the files. Cheers! 
