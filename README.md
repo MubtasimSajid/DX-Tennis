@@ -1,5 +1,5 @@
 # DX Tennis
-DXT, short for DX Tennis, is a simple 2-player single-device game. The idea was to fuse the two simple, yet vastly popular computer games together: DX-Ball &amp; Ping Pong. It was created as our project submission for Structured Programming - 2 lab of the 2nd semester of the CSE-'27 batch of IUT by the team of [Mubtasim Sajid Ahmed](https://github.com/MubtasimSajid), [AKM Ishmam Tahmid](https://github.com/ishmam259), [Mahmudul Hasan Sakib](https://github.com/beiged231) &amp; [Obaidullah](https://github.com/Obaidullah-star). The language used was C & the graphics were rendered using the iGraphics library, which enables developing GUI in C/C++. Sprites drawn with pixel art were sprinkled all around to give the game a playful aesthetic identity.
+DXT, short for DX Tennis, is a simple 2-player single-device game. The idea was to fuse the two simple, yet vastly popular computer games: DX-Ball &amp; Ping Pong. It was created as our project submission for Structured Programming - 2 lab of the 2nd semester of the CSE-'27 batch of IUT by the team of [Mubtasim Sajid Ahmed](https://github.com/MubtasimSajid), [AKM Ishmam Tahmid](https://github.com/ishmam259), [Mahmudul Hasan Sakib](https://github.com/beiged231) &amp; [Obaidullah](https://github.com/Obaidullah-star). The language used was C & the graphics were rendered using the iGraphics library, which enables developing GUI in C/C++. Sprites drawn with pixel art were sprinkled all around to give the game a playful aesthetic identity.
 
 ## Gameplay
 Two players control two paddles, one using the keyboard and the other using the mouse. W & S are pressed to move the left bat up or down, respectively & the left & right mouse down do the same for the player to the right. Each player is given a set of bricks to protect. The player to first destroy their opponent's wall fully wins.
@@ -15,3 +15,12 @@ We hope that you will find DX Tennis enjoyable & entertaining. Please note that 
 ## Pre-requisites
 1. iGraphics
 2. MinGW installed on C:\ drive (for Windows)
+
+## Project Structure
+/.vscode - Our VS Code build settings, which we used to run it.
+/Images -  The background photos, pixel art sprites & other image elements used in different aspects of the game.
+/Sounds - Hosts the sound effects used throughout the gameplay & various menus.
+/ - All the .cpp codes, necessary header files for iGraphics to work & everything else that's needed to build the project reside here.
+
+# License
+It's fully free & open-source. You're allowed to explore the codes & other assets. If you use these to create a substantially different project, you can slap your preferred license on it.
