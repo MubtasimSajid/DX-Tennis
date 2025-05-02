@@ -18,8 +18,11 @@ We hope that you will find DX Tennis enjoyable & entertaining. Please note that 
 
 ## Project Structure
 /.vscode - Our VS Code build settings, which we used to run it.
+
 /Images -  The background photos, pixel art sprites & other image elements used in different aspects of the game.
+
 /Sounds - Hosts the sound effects used throughout the gameplay & various menus.
+
 / - All the .cpp codes, necessary header files for iGraphics to work & everything else that's needed to build the project reside here.
 
 # License
