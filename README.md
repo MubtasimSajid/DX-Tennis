@@ -23,7 +23,18 @@ We hope that you will find DX Tennis enjoyable & entertaining. Please note that 
 
 /Sounds - Hosts the sound effects used throughout the gameplay & various menus.
 
-/ - All the .cpp codes, necessary header files for iGraphics to work & everything else that's needed to build the project reside here.
+/ - All the .cpp codes, necessary header files for iGraphics to work & everything else needed to build the project reside here.
 
-# License
-It's fully free & open-source. You're allowed to explore the codes & other assets. If you use these to create a substantially different project, you can slap your preferred license on it.
+## 📜 License
+
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+
+You are free to:
+
+- Use, study, and modify the source code.
+- Distribute original or modified versions, **provided they are also licensed under GPLv3**.
+
+> This ensures that all derivative works remain free and open-source under the same license.
+
+For full license details, see the [LICENSE](./LICENSE) file or visit the official GNU website:  
+[https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
